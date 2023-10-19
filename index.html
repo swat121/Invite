@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Приглашение на Хэллоуин</title>
+</head>
+<body>
+<div class="container">
+    <div class="main-element">Halloween!</div>
+    <div class="page" id="page1">
+        <button class="invite-element" id="touch-button" style="display:block" onclick="showText()">Touch me!!!!</button>
+        <p id="invitation-text" style="display:none;">
+            <span id="invitation-content"></span>
+            <div class="button-container">
+                <button id="accept-invitation-button" style="display:none" onclick="navigate(2)">Конечно готов!</button>
+            </div>
+        </p>
+    </div>
+    <div class="page" id="page2" style="display: none;">
+        <p id="invitation-text-2" >Тематика вечеринки - МАДАГАСКАР<br>
+            По-этому мы все выбираем себе животное и приходим в его стиле<br>
+            По поводу еды и выпивки информация будет на следующей недели (постараемся учесть интересы всех)<br>
+            Дата: 28.10.2023<br>
+            Место встречи изменить нельзя<br>
+        </p>
+<!--        <p>Мы рады пригласить вас...</p>-->
+<!--        <button onclick="window.location.href='https://www.google.com'">Перейти на Google</button>-->
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

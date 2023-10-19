@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #5e2c2c, #3c3b3f);
+    color: #FFA54F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.page {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.8);
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.page h1, .page p, .page button {
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #d33f49;
+    border: none;
+    color: #f8edeb;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: #aa2e37;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#invitation-text {
+    font-size: 1.5rem;
+    color: #FFDAB9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(134, 58, 58, 0.2);
+}
+
+#invitation-text-2 {
+    font-size: 1.5rem;
+    color: #FFDAB9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(134, 58, 58, 0.2);
+}
+
+/*.main-element {*/
+/*    text-align: center;*/
+/*    font-size: 40px;*/
+/*    font-family: 'Nosifer', cursive;*/
+/*}*/
+
+
+.main-element {
+    font-family: 'Nosifer', cursive; /* Пример шрифта, который вы можете использовать */
+    font-size: 2rem;
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+/*.container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    width: 100%;*/
+/*    max-width: 600px;*/
+/*}*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* это заставляет контейнер занимать всю высоту экрана */
+}
+
+.invite-element {
+    font-family: 'Creepster', cursive;
+    font-size: 27px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Это необходимо, если кнопка находится в контейнере с другим содержимым и вы хотите добавить некоторый отступ сверху и снизу */
+    margin: 10px 0;
+}
+
+#accept-invitation-button {
+    background-color: #FF4757; /* красный цвет */
+    color: #FFFFFF; /* белый цвет текста */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* плавное изменение цвета при наведении */
+}
+
+#accept-invitation-button:hover {
+    background-color: #E8414B; /* немного темнее при наведении */
+}
+
